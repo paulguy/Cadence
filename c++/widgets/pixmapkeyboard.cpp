@@ -64,7 +64,7 @@ static std::map<int, QRectF> kMidiKey2RectMapVertical = {
 static std::map<int, int> kMidiKeyboard2KeyMap;
 #else
 static const std::map<int, int> kMidiKeyboard2KeyMap = {
-    // 3th octave
+    // top row, 3rd octave
     {Qt::Key_Z, 48},
     {Qt::Key_S, 49},
     {Qt::Key_X, 50},
@@ -89,7 +89,13 @@ static const std::map<int, int> kMidiKeyboard2KeyMap = {
     {Qt::Key_6, 68},
     {Qt::Key_Y, 69},
     {Qt::Key_7, 70},
-    {Qt::Key_U, 71}
+    {Qt::Key_U, 71},
+    // continue the top row in to the 5th octave
+    {Qt::Key_I, 72},
+    {Qt::Key_9, 73},
+    {Qt::Key_O, 74},
+    {Qt::Key_0, 75},
+    {Qt::Key_P, 76}
 };
 #endif
 
